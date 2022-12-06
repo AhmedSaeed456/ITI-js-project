@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+/* ----------  Cardssssss container  ----------------- */
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 75vw;
+  margin: 20px auto; 
+}
+
+/* ----------- a single card components' container  ------------*/
+
+.card {
+  width: calc(95% / 3);
+  flex-shrink: 1;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 50px;
+  background-color: #eeeeee;
+  color: #393e46;
+  text-align: center;
+  transition:all 300ms ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 3px 4px rgba(0, 173, 181, 1);
+}
+
+/* -------------    product Text info      ---------------- */
+
+.cardInfo {
+  padding: 15px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* -------------    product Name      ---------------- */
+
+.cardName {
+  font-weight: 700;
+  padding-bottom: 10px;
+  color: #222831;
+}
+
+/* -------------    Card Image      ---------------- */
+.imgContainer {
+  width: 100%;
+  margin: auto;
+  height: 250px;
+}
+
+.productPic {
+  width: 100%;
+  height: inherit;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.cardDescription {
+  letter-spacing: 0.6px;
+  text-align: left;
+}
+
+.card {
+  position: relative !important;
+}
+
+/* -----------   Add to cart button       ---------------- */
+.btns {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  height: 40px;
+  justify-content: center;
+  margin-bottom: 15px;
+  
+}
+
+.addButton {
+  width: 40%;
+  border: none;
+  margin-left: 10px;
+  height: 100%;
+  background-color: #22a39f;
+  border-radius:20px;
+  color:#eee;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+/* Number of items Button */
+.numContainer {
+  width: 35%;
+  background-color: #22a39f;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  
+}
+.noOfItems {
+  text-align: center;
+  height: 100%;
+  border: none;
+  width: 50%;
+  border-radius: 2px;
+ 
+}
+
+.noOfItems:focus {
+  outline: none;
+}
+/* --------------    incremental, decremental buttons ----------*/
+.increment,
+.decrement {
+  width: 25%;
+  height: 100%;
+  font-size: larger;
+  background: transparent;
+  border: none;
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* smaller screens */
+@media all and (max-width: 768px) {
+  .card {
+    width: calc(95% / 2);
+  }
+}
