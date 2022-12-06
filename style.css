@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Cairo:wght@300&family=Calligraffitti&family=Montserrat:wght@200&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
+:root {
+  --basic-color: #222831;
+  --second-color: #393e46;
+  --light-color: #eeeeee;
+  --blue-color: #00adb5;
+  --white-colot: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(var(--basic-color), var(--second-color));
+}
+#airpods
+{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    color: var(--light-color);
+    top:110rem;
+    z-index:100000000;
+    font-size: 200px;
+    opacity: 30%;
+    
+}
+#airpods>#h11{
+    animation: airpodsAnime 2s alternate-reverse ease-in-out infinite;
+}
+#airpods>#h12{
+    animation: airpodsAnime 2.1s alternate-reverse ease-in-out infinite;
+}
+#airpods>#h13{
+    animation: airpodsAnime 2.2s alternate-reverse  infinite;
+}
+#airpods>#h14{
+    animation: airpodsAnime 2.3s alternate-reverse linear infinite;
+}
+#airpods>#h15{
+    animation: airpodsAnime 2.4s alternate-reverse ease-in-out infinite;
+}
+#airpods>#h16{
+    animation: airpodsAnime 2.5s alternate-reverse ease-in-out infinite;
+}
+#airpods>#h17{
+    animation: airpodsAnime 2.6s alternate-reverse ease-in-out infinite;
+}
+@keyframes airpodsAnime {
+    0% {
+        /* transform:translateY(10px); */
+        opacity:100%;
+    }
+    100% {
+        /* transform:translateY(100px); */
+        opacity:0%;
+    }
+}
+
+#max
+{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    color: var(--basic-color);
+    top:255rem;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    z-index:100000000;
+    font-size: 200px;
+    opacity: 5%;
+    
+    
+}
+#max>#h11{
+    
+    
+    animation: maxAnime 5s alternate-reverse linear infinite;
+}
+#max>#h12{
+  
+    animation: maxAnime 5s alternate-reverse linear infinite;
+}
+#max>#h13{
+  
+    
+    animation: maxAnime 5s alternate-reverse linear  infinite;
+
+}
+@keyframes maxAnime {
+    0%{
+        transform:rotateY(0deg);
+    }
+    100%{
+        transform:rotateY(90deg);
+    }
+    
+}
+/* body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera 
+  } */
+/* .card
+{
+    
+    z-index:100000;
+    background:#fff;
+    border-radius: 10px;
+    width:200px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+.card img{
+    width:100px;
+}
+.card .card-btn{
+    border:none;
+    border-radius:20px;
+    background-color:var(--blue-color);
+    padding:10px;
+    color:#fff;
+    cursor:pointer;
+} */
+/* ------------------------------------------------ */
+header {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000; /*to make it as a top layer */
+  
+}
+
+/* ---- header scrolling behavior ---- */
+
+header.headerBack::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+  animation-name: headerAnimation;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes headerAnimation {
+  from {
+    background-color: none;
+    top: -40px;
+  }
+  to {
+    background-color: #00adb5;
+    top: 0%;
+  }
+}
+/* ---- end of header scrolling behavior ---- */
+
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.activ {
+  background: #fff;
+  color: var(--basic-color);
+}
+header ul li a#name {
+  animation: animeName 1.5s linear alternate-reverse infinite;
+}
+@keyframes animeName {
+  0% {
+    box-shadow: /* ie */ 0px 0px 15px 0px rgba(0, 162, 255, 0.7),
+      /* top - THE RED SHADOW */ 0px 0px 15px 0px rgba(0, 238, 255, 1),
+      /* bottom */ 0px 0px 15px 0px #4b4b4b,
+      /* right */ 0px 0px 15px 0px #3b3b3b; /* left */
+  }
+  100% {
+    box-shadow: 0px 0px 10px 1px var(--light-color); /* top - THE RED SHADOW */
+  }
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, var(--basic-color), transparent);
+  z-index: 1000;
+}
+section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+section img#moon {
+  mix-blend-mode: screen;
+}
+section img#mountains_front {
+  z-index: 10;
+}
+#text {
+  margin-top: 25vh;
+  -webkit-text-stroke: 1px black;
+  position: absolute;
+  color: #fff;
+  top: 4vh;
+  white-space: nowrap;
+  font-size: 7.5vw;
+  z-index: 9;
+  right: -350px;
+}
+#btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 40px;
+  border-radius: 40px;
+  background: #fff;
+  color: var(--basic-color);
+  font-size: 1.5em;
+  z-index: 1;
+  transform: translateY(100px);
+}
+.sec {
+  position: relative;
+  padding: 100px;
+  background: var(--basic-color);
+}
+.sec h2 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.sec p {
+  font-size: 1em;
+  color: #fff;
+}
+/*------------------------ side bar ----------------------------*/
+
+.sidebar {
+  position: absolute;
+  /* position: fixed; */
+  z-index: 10000;
+  top: 0px;
+  right: -250px;
+  width: 250px;
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  box-shadow: 0 0 5px 5px var(--basic-color);
+  background: rgba(34, 40, 49, 0.7);
+  transition: all 300ms ease-in-out;
+}
+.sidebar::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+.sidebar .sidebar_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.sidebar .sidebar_header #cross {
+  color: var(--light-color);
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-left: 3.4em;
+}
+.sidebar .sidebar_header #cross:hover {
+  color: var(--blue-color);
+}
+.sidebar h2 {
+  color: var(--light-color);
+}
+
+.sidebar .links a {
+  text-decoration: none;
+  background: var(--second-color);
+  display: block;
+  padding: 15px 10px;
+  color: var(--light-color);
+  cursor: pointer;
+  border: 1px solid #1b1b1b;
+  direction: ltr;
+  width: 10 0%;
+  margin: 5px 0px;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 300ms ease;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 13px 0;
+}
+
+.sidebar .links a.active,
+.sidebar .links a:hover {
+  /* background:#434242; */
+  color: var(--light-color);
+  animation: animeName 1s linear alternate-reverse infinite;
+  border-color: var(--blue-color);
+  padding: 15px 0;
+}
+.sidebar .links a #inner-cross:hover {
+  color: var(--blue-color);
+}
+.sidebar .links a .item #counter::before {
+  content: "x";
+}
+.sidebar .links a .item #counter {
+  font-size: 20px;
+}
+.sidebar.active {
+  right: 0px;
+}
+.sidebar p {
+  color: var(--light-color);
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+/*---------inner item in sidebar-------------------*/
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background: #434242; */
+  margin-left: 15px;
+  /* justify-content: space-evenly; */
+}
+.item img {
+  width: 40px;
+  height: 70px;
+  transition: all 300ms ease;
+}
+.item img:hover {
+  border-bottom: 1px solid rgba(0, 173, 181, 0.7);
+  border-radius: 10px;
+}
+.item .info {
+  list-style-type: none;
+  margin-left: 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.item .info li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.item .info li:nth-child(1) {
+  width: 90%;
+  height: 50%;
+  font-size: 15px;
+  font-weight: bold;
+}
+.item .info li:nth-child(2) {
+  font-size: 11px;
+  margin-top: 10px;
+}
+/*----------------------------------------------------------------*/
+
+canvas {
+  position: sticky;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
