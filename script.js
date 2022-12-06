@@ -218,6 +218,7 @@ function convert(i) {
   del(i);
 }
 
+
 function del(item) {
   var items = document.getElementById(item);
   price = parseFloat(prices[item]);
