@@ -44,10 +44,12 @@ for (let index = 0; index < items.length; index++) {
 for (let index = 0; index < addButton.length; index++) {
   addButton[index].onclick = function () {
     if (name != "") {
+      console.log(document.getElementById("login"));
       if (addButton[index].value == "Add to Cart") { (addButton[index].style.background = "red"); addButton[index].value = "Remove"; che(index); }
       else { addButton[index].value = "Add to Cart"; (addButton[index].style.background = "#22a39f"); del(index); console.log('index' + index); };
     }
     else {
+      document.getElementById("login").style.opacity = "100%";
       alert("please,login first...");
     }
   };
