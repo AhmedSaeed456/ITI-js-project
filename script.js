@@ -9,6 +9,9 @@ let name="";
 function setPage() {
   name = getCookie("name");
   document.getElementById("name").innerText = name;
+  if (name != "") {
+    document.getElementById("login").style.opacity = "0%";
+  }
 }
 window.addEventListener("scroll", function () {
   let value = window.scrollY;
