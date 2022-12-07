@@ -328,8 +328,8 @@ section img#mountains_front {
 .sidebar .links a {
   text-decoration: none;
   background: var(--second-color);
-  display: block;
-  padding: 15px 10px;
+  /* display: block; */
+  padding: 0px 0px;
   color: var(--light-color);
   cursor: pointer;
   border: 1px solid #1b1b1b;
@@ -343,6 +343,7 @@ section img#mountains_front {
   flex-direction: row;
   justify-content: space-around;
   padding: 13px 0;
+
 }
 
 .sidebar .links a.active,
@@ -352,6 +353,11 @@ section img#mountains_front {
   animation: animeName 1s linear alternate-reverse infinite;
   border-color: var(--blue-color);
   padding: 15px 0;
+}
+.sidebar .links a #NUMS
+{
+  position:relative;
+  margin-top: 20%;
 }
 .sidebar .links a #inner-cross:hover {
   color: var(--blue-color);

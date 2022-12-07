@@ -189,11 +189,18 @@ function addToCart(car) {
   price = parseFloat(prices[itemID]);
  
   total += price * noOfitemsInput[itemID].value;
+
   
   document.getElementById("total").innerText = total.toFixed(2);
 
   list.append(li2);
   divv.append(list);
+
+  //number of items
+  let priceNum = document.createElement('p');
+  priceNum.setAttribute('id', 'NUMS');
+  priceNum.innerText = "x"+noOfitemsInput[itemID].value;
+  selectedElement.append(priceNum);
 
   //create cross and add to a
   let cross = document.createElement("p");
@@ -225,7 +232,7 @@ function del(item) {
   price = parseFloat(prices[item]);
   
   total -= price * noOfitemsInput[item].value;
-  document.getElementById("total").innerText = total.toFixed(2);
+  document.getElementById("total").innerText =Math.abs(total.toFixed(2));
 
   items.remove();
 }
