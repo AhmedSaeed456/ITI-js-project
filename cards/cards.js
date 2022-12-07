@@ -43,9 +43,13 @@ for (let index = 0; index < items.length; index++) {
 /* ------  toggling  Add/Remove  to cart button      ---------- */
 for (let index = 0; index < addButton.length; index++) {
   addButton[index].onclick = function () {
-    if (addButton[index].value == "Add to Cart") { (addButton[index].style.background = "red"); addButton[index].value = "Remove"; che(index); }
-    else { addButton[index].value = "Add to Cart"; (addButton[index].style.background = "#22a39f"); del(index); console.log('index'+index); };
-    
+    if (name != "") {
+      if (addButton[index].value == "Add to Cart") { (addButton[index].style.background = "red"); addButton[index].value = "Remove"; che(index); }
+      else { addButton[index].value = "Add to Cart"; (addButton[index].style.background = "#22a39f"); del(index); console.log('index' + index); };
+    }
+    else {
+      alert("please,login first...");
+    }
   };
 }
 /* --------------------- incremental buttons functionality */
