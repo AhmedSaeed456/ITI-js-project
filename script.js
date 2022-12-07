@@ -141,7 +141,7 @@ preloadImages();
 //------------------------------------------------------------------
 
 function che(index) {
-  console.log(card[index]);
+  console.log(index);
   let card_img = card[index].children[0].children[0].src;
   setCoockie("cardImg", card_img, 1);
 
@@ -165,7 +165,7 @@ function addToCart(car) {
   let selectedElement = document.createElement("a");
   counn += 1;
   selectedElement.href = "#";
-  selectedElement.setAttribute("id", itemID);
+  selectedElement.setAttribute("id", "item"+itemID);
 
   //create div and add in a
   let divv = document.createElement("div");
@@ -221,14 +221,14 @@ function convert(i) {
   addButton[i].style.background = "#22a39f";
   //  document.getElementById(i).value = "Add to Cart";
   //  document.getElementById(i).style.background = "#22a39f";
-
+  console.log("i"+i);
   del(i);
 }
 
 //modify2
 
 function del(item) {
-  var items = document.getElementById(item);
+  var items = document.getElementById("item"+item);
   price = parseFloat(prices[item]);
   
   total -= price * noOfitemsInput[item].value;
