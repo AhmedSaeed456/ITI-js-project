@@ -293,7 +293,7 @@ section img#mountains_front {
   -ms-overflow-style: none;
   scroll-behavior: smooth;
   box-shadow: 0 0 5px 5px var(--basic-color);
-  background: rgba(34, 40, 49, 0.7);
+  background: rgba(34, 40, 49, 0.9);
   transition: all 300ms ease-in-out;
 }
 .sidebar::-webkit-scrollbar {

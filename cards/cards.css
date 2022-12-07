@@ -146,11 +146,11 @@ input[type="number"] {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 30%;
+  top: 40%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: #000;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -165,14 +165,15 @@ input[type="number"] {
 
 /* Position the "next button" to the right */
 .next {
-  right: 193px;
+  right: 12vw;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  opacity: 1;
+  background-color: rgba(0,0,0,0.7);
+  color:#fff;
+  opacity: 0.7;
 }
 
 /* The dots/bullets/indicators */
