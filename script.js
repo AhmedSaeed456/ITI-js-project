@@ -5,9 +5,9 @@ let text = document.getElementById("text");
 let btn = document.getElementById("btn");
 let mountains_front = document.getElementById("mountains_front");
 let header = document.querySelector("header");
-
+let name="";
 function setPage() {
-  let name = getCookie("name");
+  name = getCookie("name");
   document.getElementById("name").innerText = name;
 }
 window.addEventListener("scroll", function () {
@@ -141,17 +141,19 @@ preloadImages();
 //------------------------------------------------------------------
 
 function che(index) {
-  console.log(index);
-  let card_img = card[index].children[0].children[0].src;
-  setCoockie("cardImg", card_img, 1);
+ 
+    console.log(index);
+    let card_img = card[index].children[0].children[0].src;
+    setCoockie("cardImg", card_img, 1);
 
-  let card_type = card[index].children[1].children[0].innerText;
-  setCoockie("cardType", card_type, 1);
+    let card_type = card[index].children[1].children[0].innerText;
+    setCoockie("cardType", card_type, 1);
 
-  let card_price = prices[index];
-  setCoockie("cardPrice", card_price, 1);
+    let card_price = prices[index];
+    setCoockie("cardPrice", card_price, 1);
 
-  addToCart(index);
+    addToCart(index);
+  
 }
 
 var counn = 1,
