@@ -1,5 +1,58 @@
 // name , description , img source , price
+//--------------------------------------------- slider items ------------------------------------
+/* ------MAC BOOK DATA------  */
+var pencil = [
+  "APPLE Pencil (2020)",
+  "Screen diagonal: 13.3 inches. Processor: Apple M1 chip. Memory: 8 GB RAM. Graphics Design: M1 GPU",
+  "../images/pencil.jpg",
+  "1079$",
+];
 
+/* ------iPad DATA------  */
+
+var airtags = [
+  "APPLE AirTags",
+  "Screen diagonal: 10.2 inches. Processor	A13 Bionic chip with 64-bit architecture. Capacity: 256 GB",
+  "../images/airtags.jpg",
+  "599.00$",
+];
+
+/* ------iPhone------  */
+
+var magSafeCharger = [
+  "MagSafe Charger",
+  "Screen diagonal: 6.1 inches. Processor: A16 Bionic Chip. Capacity: 1 TB. SIM card: (4FF)",
+  "../images/charger.jpg",
+  "1949.00$",
+];
+
+/* ------airpods------  */
+
+var magSafeCase = [
+  "MagSafe case (2nd Generation)",
+  "Signaling: true wireless. Max operating time: 6H of single charge.  Features:	Noise Cancellation, Transparency Mode. Built in Microphone: Yes",
+  "../images/case.jpg",
+  "279.00$",
+];
+
+/* ------Watch------  */
+
+var magSafeWallet= [
+  "MagSafe Wallet (brown)",
+  "Operation via: touch. Heart Rate Sensor: Yes. Storage capacity:	32 GB.  Compaitable Operating systems:	iOS. ",
+  "../images/wallet.jpg",
+  "499.00$",
+];
+
+/* ------Cover------  */
+
+var powerAdapter = [
+  "USB-C Power Adapter",
+  "Scratch-resistant Case. Transparent, Hard Back & Silicone Frame. Hard Back Cover Hybrid Phone Case Protective Case Cover",
+  "../images/adapter.jpg",
+  "49.00$",
+];
+//-----------end of slider items-----------------//
 /* ------MAC BOOK DATA------  */
 var mac = [
   "APPLE MacBook Air (2020)",

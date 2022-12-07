@@ -276,15 +276,8 @@ section img#mountains_front {
   padding: 100px;
   background: var(--basic-color);
 }
-.sec h2 {
-  font-size: 3.5em;
-  margin-bottom: 10px;
-  color: #fff;
-}
-.sec p {
-  font-size: 1em;
-  color: #fff;
-}
+
+
 /*------------------------ side bar ----------------------------*/
 
 .sidebar {
