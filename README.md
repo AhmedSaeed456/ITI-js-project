@@ -52,7 +52,7 @@
   1️⃣- Login constraints<br>
   2️⃣- User can browse this site without login but to add products..he must login<br>
   3️⃣- Carousel slider with lift & right arrows<br>
-  4️⃣- Detect the number of items to buy, and add, or remove from Cart sidebar<br>
+  4️⃣- Detect the number of items to buy, and add, or remove to/from Cart sidebar<br>
   5️⃣- A very joyful UI experience<br>
   6️⃣- Animation of airpods, and airpods max<br>
   7️⃣- buttons to make your experience easier<br>
