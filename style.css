@@ -9,7 +9,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
@@ -433,14 +433,13 @@ canvas {
 }
 
 .footer-section {
-  width: 100vw;
+  width: 100%;
   position: relative;
-  padding: 80px  10px;
+  padding: 80px 0 10px;
   background-image: url("images/footer.jpg");
   background-size: cover;
   background-position: center;
   z-index: 7;
-  
 }
 
 .footer-section::before {
@@ -459,9 +458,8 @@ canvas {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  color: var(--white-colot);
+  color: var(--white);
   padding-bottom: 50px;
-  
 }
 
 .footer-section .addresses-container .address-item {
@@ -469,7 +467,6 @@ canvas {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .footer-section .addresses-container .address-item .address-head {
@@ -478,11 +475,11 @@ canvas {
 
 .footer-section .addresses-container .address-item .address-content {
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal; 
   line-height: 2;
   margin-bottom: 5px;
   color: var(--light);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
 }
 .footer-section .addresses-container .address-item .address-content span {
   display: block;
@@ -522,4 +519,3 @@ canvas {
     padding-bottom: 20px;
   }
 }
-
