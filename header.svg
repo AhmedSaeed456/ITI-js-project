@@ -3,9 +3,12 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <style>
-        /* your CSS */
+        h1
+        {
+          color:red;
+        }
       </style>
-
+      <h1>Hello</h1>
       <!-- your HTML -->
 
     </div>
