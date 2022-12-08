@@ -421,3 +421,105 @@ canvas {
   margin-right: auto;
   display: block;
 }
+
+/* -------------------footer style --------------------------- */
+:root {
+  --dark-light: #191f3a;
+  --dark: #0c1023;
+  --light: #c8c8c8;
+  --white: #ffffff;
+  --main-color: #eaa023;
+  --cursive-font: "Cedarville Cursive", cursive;
+}
+
+.footer-section {
+  width: 100vw;
+  position: relative;
+  padding: 80px  10px;
+  background-image: url("images/footer.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 7;
+  
+}
+
+.footer-section::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.footer-section .addresses-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: var(--white-colot);
+  padding-bottom: 50px;
+  
+}
+
+.footer-section .addresses-container .address-item {
+  width: calc((100% / 3) - 90px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.footer-section .addresses-container .address-item .address-head {
+  margin-bottom: 10px;
+}
+
+.footer-section .addresses-container .address-item .address-content {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal; 
+  line-height: 2;
+  margin-bottom: 5px;
+  color: var(--light);
+}
+.footer-section .addresses-container .address-item .address-content span {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.footer-section .addresses-container i {
+  font-size: 20px;
+  margin: 5px;
+  color: var(--white);
+}
+
+.footer-section hr {
+  border-top: none;
+  width: 90%;
+  margin: auto;
+  border-color: var(--light);
+}
+
+.footer-section .copy-rights {
+  color: var(--light);
+  margin: 20px auto;
+  text-align: center;
+}
+
+@media all and (max-width: 992px) {
+  .footer-section .addresses-container {
+    flex-direction: column;
+  }
+  .footer-section .addresses-container .address-item {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .footer-section .addresses-container {
+    padding-bottom: 20px;
+  }
+}
+

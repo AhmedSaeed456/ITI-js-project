@@ -32,7 +32,6 @@ function Validate(){
     else
     {
         setCoockie("name", emp_name, 1);
-        document.getElementById("login").style.opacity = "0%";
         location.assign("../index.html");
     }
     
