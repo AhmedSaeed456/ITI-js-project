@@ -1,12 +1,14 @@
+<img src="header.svg" width="800" height="400">
+
 # JS-project
 
 <p>Hello🖐 , how are you?🤔 ... I hope you are doing well❤️.
-<h4>We are team G, Who developed this Online Store for "Apple" products</h4>
+<h4>We are team G, Who developed this Online Store for "Apple" products🧑🏻‍💻👨🏻‍💻</h4>
 
 <p>ITI Intake-43 students👨🏻‍🎓👩🏻‍🎓</p>
 <hr>
 <ol>
-  <li>Reem Raed (mobile)
+  <li>1️⃣Reem Raed (mobile)
     <ul>
       <li>Design login page</li>
       <li>User data constraints</li>
@@ -46,10 +48,11 @@
   - Login constraints<br>
   - User can browse this site without login but to add products..he must login<br>
   - Carousel slider with lift & right arrows<br>
-  - Detect the number of items to buy, and add, or remove from Cart sidebar
-  - A very joyful UI experience
-  - Animation of airpods, and airpods max
-  - buttons to make your experience easier
+  - Detect the number of items to buy, and add, or remove from Cart sidebar<br>
+  - A very joyful UI experience<br>
+  - Animation of airpods, and airpods max<br>
+  - buttons to make your experience easier<br>
+  - login saved,when open site again<br>
  
 <h1>note : If you want to run this project, use live server</h1>
 <h1>We used cookie to store any data here, so if you get any problem,please clear cookie and try agin</h1> 
