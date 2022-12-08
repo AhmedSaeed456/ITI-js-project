@@ -1,8 +1,10 @@
 # JS-project
+
 <p>Hello🖐 , how are you?🤔 ... I hope you are doing well❤️.
 <h4>We are team G, Who developed this Online Store for "Apple" products</h4>
-<h4>We are : </h4>
-<p style="color:red;">ITI Intake-43 students👨🏻‍🎓👩🏻‍🎓</p>
+
+<p>ITI Intake-43 students👨🏻‍🎓👩🏻‍🎓</p>
+<hr>
 <ol>
   <li>Reem Raed (mobile)
     <ul>
@@ -28,7 +30,7 @@
   <li>Nisma Ahmed (UI)
     <ul>
       <li>Cards & Card-list Design&UI and functionality</li>
-      <li>Prepare data file of produncts</li>
+      <li>Prepare data file of products</li>
       <li>Add footer with contact information</li>
     </ul>
   </li>
@@ -40,7 +42,11 @@
     </ul>
   </li>
 </ol>
-<hr>
+<h3><b>what will you find in our site</b><h3>
+  - Login constraints
+  - User can browse this site without login but to add products..he must login
+  - carousel slider with lift & right arrows
 <h1>note : If you want to run this project, use live server</h1>
+<h1>We used cookie to store any data here, so if you get any problem,please clear cookie and try agin</h1> 
 
 <h3>co.js added to dealing with cookies</h3>
