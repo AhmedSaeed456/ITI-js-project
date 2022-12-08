@@ -42,10 +42,15 @@
     </ul>
   </li>
 </ol>
-<h3><b>what will you find in our site</b><h3>
-  - Login constraints
-  - User can browse this site without login but to add products..he must login
-  - carousel slider with lift & right arrows
+<h1><b>what will you find in our site</b></h1>
+  - Login constraints<br>
+  - User can browse this site without login but to add products..he must login<br>
+  - Carousel slider with lift & right arrows<br>
+  - Detect the number of items to buy, and add, or remove from Cart sidebar
+  - A very joyful UI experience
+  - Animation of airpods, and airpods max
+  - buttons to make your experience easier
+ 
 <h1>note : If you want to run this project, use live server</h1>
 <h1>We used cookie to store any data here, so if you get any problem,please clear cookie and try agin</h1> 
 
