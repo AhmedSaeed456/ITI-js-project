@@ -8,7 +8,7 @@
 <p>ITI Intake-43 students👨🏻‍🎓👩🏻‍🎓</p>
 <hr>
 <ol>
-  <li>1️⃣Reem Raed (mobile)
+  <li>Reem Raed (mobile)
     <ul>
       <li>Design login page</li>
       <li>User data constraints</li>
