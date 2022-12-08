@@ -1,7 +1,7 @@
 # JS-project
 
 <p>Hello🖐 , how are you?🤔 ... I hope you are doing well❤️.
-<h4>We are team G, Who developed this Online Store for "Apple" products🧑🏻‍💻👨🏻‍💻</h4>
+<h4>📢We are team G, Who developed this Online Store for "Apple" products🧑🏻‍💻👨🏻‍💻</h4>
 
 <p>ITI Intake-43 students👨🏻‍🎓👩🏻‍🎓</p>
 <hr>
@@ -58,7 +58,9 @@
   7️⃣- buttons to make your experience easier<br>
   8️⃣- login saved,when open site again<br>
  
-<h1>note : If you want to run this project, use live server</h1>
-<h1>We used cookie to store any data here, so if you get any problem,please clear cookie and try agin</h1> 
-
-<h3>co.js added to dealing with cookies</h3>
+<h1></h1>
+<p>🔴notes :</p>
+<p>If you want to run this project, use live server💻</p>
+<p>We used cookies to store any data here, so if you get any problem,please clear cookie and try agin🛠</p> 
+<hp>co.js added to dealing with cookies🍪</hp>
+<p>finally, scroll slowly to notice all details🤫🤯</p>
